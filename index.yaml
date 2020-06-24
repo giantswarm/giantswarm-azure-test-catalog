@@ -1,3 +1,18 @@
 apiVersion: v1
-entries: {}
-generated: 2020-06-24T12:31:01.095123+02:00
+entries:
+  azure-logs-workspace-app:
+  - apiVersion: v1
+    appVersion: v0.0.1
+    created: "2020-06-24T13:19:16.156245133Z"
+    description: A Helm Chart for Workspace Analytics Solution for Azure.
+    digest: 4d1ada4be10f73d8afd0fc37640c7e485c0cce9f10f23110807c46d4c2877e31
+    home: https://github.com/giantswarm/azure-logs-workspace-app
+    name: azure-logs-workspace-app
+    sources:
+    - https://github.com/giantswarm/azure-logs-workspace-app
+    - https://github.com/giantswarm/fluent-logshipping-app/
+    - https://github.com/giantswarm/azure-tools-operator
+    urls:
+    - https://giantswarm.github.com/giantswarm-azure-test-catalog/azure-logs-workspace-app-0.0.0-73facf0127c6992a7c1ce1b99de815b7e289ad7d.tgz
+    version: 0.0.0-73facf0127c6992a7c1ce1b99de815b7e289ad7d
+generated: "2020-06-24T13:19:16.154966355Z"
