@@ -3,6 +3,25 @@ entries:
   azure-logs-workspace-app:
   - apiVersion: v2
     appVersion: v0.0.1
+    created: "2021-03-01T14:05:04.950340757Z"
+    dependencies:
+    - name: fluent-logshipping-app
+      repository: https://giantswarm.github.com/giantswarm-playground-catalog
+      version: 0.5.2
+    description: A Helm Chart for Workspace Analytics Solution for Azure.
+    digest: 88c0853de1dc0989dd02c279de7108df04770a31ebbcec3a5d18b512ce658bd3
+    home: https://github.com/giantswarm/azure-logs-workspace-app
+    icon: https://raw.githubusercontent.com/giantswarm/azure-logs-workspace-app/master/log-workspace-app.png
+    name: azure-logs-workspace-app
+    sources:
+    - https://github.com/giantswarm/azure-logs-workspace-app
+    - https://github.com/giantswarm/fluent-logshipping-app
+    - https://github.com/giantswarm/azure-tools-operator
+    urls:
+    - https://giantswarm.github.io/giantswarm-azure-test-catalog/azure-logs-workspace-app-0.0.1-93c4ccb782fd8b78f195011f2af1447c51d03829.tgz
+    version: 0.0.1-93c4ccb782fd8b78f195011f2af1447c51d03829
+  - apiVersion: v2
+    appVersion: v0.0.1
     created: "2021-03-01T13:34:21.595693517Z"
     dependencies:
     - name: fluent-logshipping-app
@@ -242,4 +261,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-azure-test-catalog/azure-logs-workspace-app-0.0.0-0d78409e528b830aa99b31fd2c7232e1af2b9477.tgz
     version: 0.0.0-0d78409e528b830aa99b31fd2c7232e1af2b9477
-generated: "2021-03-01T13:34:21.594247509Z"
+generated: "2021-03-01T14:05:04.949083072Z"
